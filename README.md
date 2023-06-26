@@ -17,14 +17,4 @@ When the Admin logs into the system, he will see a Timetable comprising of both 
  Those Items in the timetable he will see that doesn’t have Venue, day of lecture and time yet are waiting for him (ie the admin) to instruct the system to automatically assign the best aforementioned elements to them.
 The Items on the admin Timetable with “Status” True already have lecture Venues, time and day assigned to them.
 Whereas those Items on the admin Timetable with “Status” False have not been assigned Lecture Venue.
-To assign Lecture venues to those items without venues yet, the admin will click on the “Assign Venue” Links on the side of each item on his timetable. (Example:: MON | COS 462 | 10 – 12 | with 200 as the number of students that registered the course. “let’s assume he selected this record”)
-When he clicks on the above timetable record, (ie when he clicks the Assign Venue link), the system will pick the ID of the record he selected and
-Check If there is a lecture venue whose capacity is equal to the no of students that registered the course he selected on the timetable (ie 200 from the example we are handling). If it sees a venue like that, it will sign that venue to that course.
-If it didn’t see, it will automatically check if there is a venue whose size is immediately above 200, say 205. If it sees, it will assign that venue to that course
-But if it didn’t see, it will automatically check if there is a venue whose size/capacity is just immediately 200 say 195. If it sees, it will assign it to the course. 
-It automatically assigns Day and Time of the lecture to the selected course.
-When the admin clicks Login Button, it takes him to a page called “Login.aspx” where he provides his login credentials to access the system.
-When he logs out, it returns him to a general User environment where he can only view the system as an ordinary user.
-
-
-
+hey there says tht this is amazing.
